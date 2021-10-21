@@ -1,0 +1,83 @@
+.alignItemCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.marginTop{
+    margin-top: 20px;
+}
+
+.todoInput{
+    height: 30px;
+    width: 250px;
+    border: 2px solid gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 0px;
+}
+
+.todoInput:focus{
+    height: 30px;
+    width: 250px;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 0px;
+}
+
+.addBtn{
+    background-color: greenyellow;
+    color: black;
+    height: 34px;
+    padding:  0px 10px;
+    cursor: pointer;
+}
+
+.updateBtn{
+    background-color: palevioletred;
+    color: black;
+    height: 34px;
+    padding:  0px 10px;
+    cursor: pointer;
+}
+
+.todoItem{
+    margin: 10px 0px;
+    border-bottom: 3px solid gray;
+    /* max-width: 200px; */
+    width: 250px;
+    height: auto;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todoItemText{
+    word-break: break-all;
+}
+
+.deleteTodoBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 0px 3px;
+    max-height: 40px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.updateTodoBtn{
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 0px 3px;
+    max-height: 40px;
+    align-self: flex-end;
+    cursor: pointer;
+}
